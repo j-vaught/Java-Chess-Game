@@ -1,4 +1,4 @@
-package chess.game;
+
 
 public enum Piece {
 	Pawn("Pawn  "), Bishop("Bishop"), Knight("Knight"), Rook("Rook  "), Queen("Queen "), King("King  ");

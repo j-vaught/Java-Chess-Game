@@ -1,0 +1,13 @@
+To compile these instructions for your own machine, follow these steps:
+
+Create .class files for java by running the following command:
+javac BoardGUI.java
+
+Create a .jar executable file by running the following command:
+jar cvfm BoardGUI.jar manifest.txt *.class
+
+Run Launch4j and set the output file to something like chess.exe. Set the jar file to BoardGUI.jar and edit any other necessary information.
+
+Click the settings button next to the run button, and create a name for an output log file.
+
+You're done! The program should now be compiled and ready to run on your machine.
