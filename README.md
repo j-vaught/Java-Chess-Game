@@ -2,7 +2,7 @@
 
 This project was a fulfilling journey through the summer of 2021. 
 
-![Image Placeholder](Image URL)
+![Game Image](https://github.com/j-vaught/Java-Chess-Game/blob/main/chess.png)
 
 Welcome to our open-source Java Chess Game. Designed with the open-source community in mind, we invite developers and chess enthusiasts alike to join us in creating an outstanding user experience and robust gameplay.
 
