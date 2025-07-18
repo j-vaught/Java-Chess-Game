@@ -1,21 +1,15 @@
-# Open-Source Java Chess Game: Code, Strategy, and Community 
+# Java Chess Game - 2021 v1.3.2
 
-This project was a fulfilling journey through the summer of 2021. 
+This open-source Java Chess Game was my very first "real" programming project outside of the classroom, created after finishing my first Intro to Algorithm classes at MTC back in 2021, just before I began attedning USC. Bluntly, I was never particularly any good at chess, never having put in the required time nor effort to master the game; the lack of which was often exploited when playing against my younger brother. 
+
+This program was a way for me to finally beat him at his own game; using computers to do the work I really ought to have done in my head. Regardless, I finally had my revenge, beating him for the first and _only_ time.
+
+I haven't played chess since. 
 
 ![Game Image](https://github.com/j-vaught/Java-Chess-Game/blob/main/chess.png)
 
-Welcome to our open-source Java Chess Game. Designed with the open-source community in mind, we invite developers and chess enthusiasts alike to join us in creating an outstanding user experience and robust gameplay.
+I built the game using UTF-8 characters to represent chess pieces, which felt extremely clever at the time. The interface went through a litany of tweaks as I tried to mimic a modern Windows GUI, even despite me testing it on two ancient Windows XP machines. Those computers ran like molasses, but figuring out how to connect them via IP addresses so we could play against each other from different rooms in our house was pretty cool at the time.
 
-Our GUI leverages UTF-8 for displaying chess symbols, creating an intuitive interface that eases navigation for all users. Whether you're a chess newbie or a seasoned veteran, we have you covered.
+The primary feature (and reason I built the program) I managed to put in was a move-suggestion system, which hinted at the best moves, or warned you about the worst ones. I also included a predictive simulator to guess your opponent's next move, adding some strategic depth. The code wasn't perfect, and looking back, it makes me cringe a little, but that's part of its charm.
 
-An integral part of our project is the move-suggestion system. It helps you identify both advantageous and potentially disadvantageous moves, adding a level of strategy and depth to every game.
-
-In designing the interface, we've gone through several iterations to bring it up to par with modern graphical interface standards in Microsoft Windows. We're continually evolving the design to create a chess game that is visually engaging and user-friendly.
-
-One of the distinguishing features of our game is the networking functionality. This capability allows for chess matches between two computers on the same network, creating opportunities for exciting competition and collaborative play.
-
-Adding an element of intrigue to the game, our chess simulator can predict player moves one step ahead. This feature introduces a fresh layer of strategy that will keep you engaged and planning for every eventuality.
-
-The development of this chess game has involved extensive testing to ensure a seamless, bug-free gaming experience. But, as part of the open-source ethos, we welcome your contributions to improve the project further.
-
-Join us on this exciting journey. Fork, clone, commit, and pull request your way into the ongoing development of this open-source Java Chess game. Together, we can make it better and more engaging for the community!
+Today, this repo is the only video game I've decided to keep on my GitHub acct. It reminds me of a simpler time before I had to be an adult, a time filled with late-night coding sessions, sibling rivalries, and even building a go-kart before heading off to the University of South Carolina. I've left it open-source, partly out of nostalgia, and partly in the hope that others might find amusement in my first stab at making a real game.
