@@ -1,9 +1,11 @@
 
 
-public enum Piece {
+package game;
+
+public enum PieceType {
 	Pawn("Pawn  "), Bishop("Bishop"), Knight("Knight"), Rook("Rook  "), Queen("Queen "), King("King  ");
 	private final String name;
-	Piece(String string) {
+	PieceType(String string) {
 		this.name=string;
 	}
 	public String toString() {
