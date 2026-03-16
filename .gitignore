@@ -1,0 +1,30 @@
+# Compiled Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Build directories
+build/
+out/
+target/
+bin/!manifest.txt
+
+# IDE files
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+nbproject/
+*.swp
+*~
+
+# OS files
+.DS_Store
+._*
+Thumbs.db
+
+# Launch4j output
+*.exe
+*.log

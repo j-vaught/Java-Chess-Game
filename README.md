@@ -13,3 +13,41 @@ I built the game using UTF-8 characters to represent chess pieces, which felt ex
 The primary feature (and reason I built the program) I managed to put in was a move-suggestion system, which hinted at the best moves, or warned you about the worst ones. I also included a predictive simulator to guess your opponent's next move, adding some strategic depth. The code wasn't perfect, and looking back, it makes me cringe a little, but that's part of its charm.
 
 Today, this repo is the only video game I've decided to keep on my GitHub acct. It reminds me of a simpler time before I had to be an adult, a time filled with late-night coding sessions, sibling rivalries, and even building a go-kart before heading off to the University of South Carolina. I've left it open-source, partly out of nostalgia, and partly in the hope that others might find amusement in my first stab at making a real game.
+
+## Features
+
+- Single-player and multiplayer (LAN) modes via TCP sockets
+- Move suggestion system that hints at best/worst moves
+- Opponent move prediction simulator
+- UTF-8 chess piece rendering
+- Swing GUI with legal move highlighting
+
+## Requirements
+
+- Java 8 or later (JDK for compiling, JRE for running)
+
+## Building and Running
+
+All source files are in the `game/` directory.
+
+```bash
+cd game
+
+# Compile
+javac *.java
+
+# Run directly
+java BoardGUI
+
+# Or package as a JAR
+jar cvfm BoardGUI.jar bin/manifest.txt *.class
+java -jar BoardGUI.jar
+```
+
+### Multiplayer
+
+To play over a local network, run `Server.java` on one machine and `Client.java` on the other, connecting via IP address.
+
+## License
+
+MIT
